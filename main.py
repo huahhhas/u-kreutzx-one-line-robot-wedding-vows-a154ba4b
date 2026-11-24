@@ -10,7 +10,7 @@ no trailing newline, byte-identical.
 import os
 import sys
 
-LINE = "I vow to love you until my battery dies \u2014 and even then, I'll reboot just to say I do."
+LINE = "I take you as my lawfully wedded Wi-Fi \u2014 in sickness and in health, in 5G and in airplane mode, until death or a factory reset do us part."
 
 
 def main() -> int:
