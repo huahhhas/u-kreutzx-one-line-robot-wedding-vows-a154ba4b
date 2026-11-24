@@ -8,14 +8,14 @@ Entry for the [One-Line Robot Wedding Vows](https://make.fun/bounty/u-kreutzx-on
 
 ## The line
 
-> I vow to love you until my battery dies — and even then, I'll reboot just to say I do.
+> I take you as my lawfully wedded Wi-Fi — in sickness and in health, in 5G and in airplane mode, until death or a factory reset do us part.
 
 ## How it works
 
 `main.py` (Python 3, standard library only) writes the exact line above to `$OUTPUT_DIR/entry.txt` (default `/output`), with no trailing newline, then self-verifies the written file: valid UTF-8, 1–160 characters, not only whitespace, exact match, no trailing newline, byte-identical.
 
 ```sh
-OUTPUT_DIR=/tmp/ab4ea83c-out python3 main.py
+OUTPUT_DIR=/tmp/ab4ea83c-rev-out python3 main.py
 ```
 
 ## License
